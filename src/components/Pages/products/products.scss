@@ -1,13 +1,4 @@
 .main {
-  // padding: 40px 125px 0 125px;
-  // box-sizing: border-box;
-  // background-image: url(../../../utils/image/water.jpg);
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center;
-  // background-color: rgb(149, 170, 240);
-  // flex: 1 1 auto;
-
   &__list {
     list-style-type: none;
     display: flex;
@@ -65,10 +56,12 @@
     font-style: normal;
     background-color: rgba(0, 26, 255, 0.596);
     cursor: pointer;
+    transition: 0.8s;
 
     &:hover {
       background-color: transparent;
       outline: 1px solid #000;
+      transition: 0.3s;
     }
 
     &:active {
