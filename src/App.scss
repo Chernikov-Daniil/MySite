@@ -1,0 +1,11 @@
+$fontFamily: "Montserrat";
+
+.App {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: $fontFamily;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,78 @@
+.main {
+  // padding: 40px 125px 0 125px;
+  // box-sizing: border-box;
+  // background-image: url(../../../utils/image/water.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+  // background-color: rgb(149, 170, 240);
+  // flex: 1 1 auto;
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.card {
+  border: 3px solid #000;
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 0 50px 0;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(89, 178, 238, 0.479);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  &__title {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 40px 0;
+  }
+
+  &__desc {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 0 0 60px 0;
+    height: 150px;
+  }
+
+  &__price {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+  }
+
+  &__btn {
+    padding: 10px 60px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px 2px;
+    font-style: normal;
+    background-color: rgba(0, 26, 255, 0.596);
+    cursor: pointer;
+
+    &:hover {
+      background-color: transparent;
+      outline: 1px solid #000;
+    }
+
+    &:active {
+      background-color: rgba(0, 26, 255, 0.596);
+    }
+  }
+}
